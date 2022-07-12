@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -558,7 +558,70 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+.container {
+  width: 100%;
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 976px) {
+  .container {
+    max-width: 976px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+  }
+}
+
+.container {
+  max-width: 90%;
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 976px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1200px;
+  }
 }
