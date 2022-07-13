@@ -1,0 +1,16 @@
+{
+  "name": "matsugesalon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nyny-sugar/matsugesalon.git",
+  "author": "natsu <nyny.sugar@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  },
+  "scripts": {
+ "dev": "tailwindcss -i CSS/styles.css -o CSS/styles_dist.css -w",
+ "build": "tailwind -o CSS/styles_dist.css --minify"
+ }
+
+}
