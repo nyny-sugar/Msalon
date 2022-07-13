@@ -10,7 +10,7 @@ module.exports = {
       "2xl": "1920px",
     },
     colors: {
-      base: "#E5D5C6",
+      base_c: "#E5D5C6",
       main: "#C97D68",
       main_h: "#ab624f",
       accent: "#C6CDBC",
