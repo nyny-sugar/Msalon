@@ -12,7 +12,10 @@ module.exports = {
     colors: {
       base: "#E5D5C6",
       main: "#C97D68",
+      main_h: "#ab624f",
       accent: "#C6CDBC",
+      black: "#444444",
+      white: "#FFFFFF",
     },
     fontFamily: {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
