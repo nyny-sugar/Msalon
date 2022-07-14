@@ -16,6 +16,7 @@ module.exports = {
       accent: "#C6CDBC",
       black: "#444444",
       white: "#FFFFFF",
+      gray: "#C6C3C3",
     },
     fontFamily: {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
