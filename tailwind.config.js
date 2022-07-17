@@ -21,30 +21,40 @@ module.exports = {
     fontFamily: {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
     },
-    extend: {},
-  },
-  plugins: [
-    function ({ addComponents }) {
-      addComponents({
-        ".container": {
-          maxWidth: "90%",
-          "@screen sm": {
-            maxWidth: "360px",
-          },
-          "@screen md": {
-            maxWidth: "700px",
-          },
-          "@screen lg": {
-            maxWidth: "900px",
-          },
-          "@screen xl": {
-            maxWidth: "1200px",
-          },
-          "@screen 2xl": {
-            maxWidth: "1200px",
-          },
+    extend: {
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
         },
-      });
+      },
+      animation: {
+        "fade-in": "fade-in 1.5s ease-in-out",
+      },
     },
-  ],
+    plugins: [
+      function ({ addComponents }) {
+        addComponents({
+          ".container": {
+            maxWidth: "90%",
+            "@screen sm": {
+              maxWidth: "360px",
+            },
+            "@screen md": {
+              maxWidth: "700px",
+            },
+            "@screen lg": {
+              maxWidth: "900px",
+            },
+            "@screen xl": {
+              maxWidth: "1200px",
+            },
+            "@screen 2xl": {
+              maxWidth: "1200px",
+            },
+          },
+        });
+      },
+    ],
+  },
 };
