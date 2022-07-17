@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="text-black font-body sm:text-sm">
-    <div class="bg-main">
+    <div class="bg-main sticky top-0 z-50">
       <nav
         class="relative px-8 py-2 flex justify-between items-center container mx-auto"
       >
         <a href="index.html">
-          <h1 class="text-white text-2xl md:text-3xl">Msalon</h1>
+          <h1 class="text-white text-2xl hover:text-white_h md:text-3xl">
+            Msalon
+          </h1>
         </a>
         <div class="lg:hidden">
-          <button class="navbar-burger flex items-center text-blue-600 p-3">
+          <button class="navbar-burger flex items-center p-3">
             <svg
-              class="block h-4 w-4 fill-current"
+              class="h-4 w-4 fill-current text-white"
               viewbox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -29,7 +31,7 @@
             </svg>
           </button>
         </div>
-        <ul
+        <!-- <ul
           class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6"
         >
           <li>
@@ -94,18 +96,18 @@
               >Information</a
             >
           </li>
-        </ul>
+        </ul> -->
       </nav>
     </div>
     <div class="navbar-menu relative z-50 hidden">
       <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
       <nav
-        class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-main border-r overflow-y-auto"
       >
         <div class="mb-8 text-right">
           <button class="navbar-close">
             <svg
-              class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+              class="h-6 w-6 cursor-pointer fill-current text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewbox="0 0 24 24"
@@ -124,32 +126,44 @@
           <ul>
             <li class="mb-1">
               <a
-                class="block p-4 text-sm font-semibold hover:bg-main hover:text-white rounded"
+                class="block p-4 text-sm font-semibold text-white hover:bg-white hover:text-black hover:rounded"
                 href="#"
                 >Concept</a
               >
             </li>
             <li class="mb-1">
               <a
-                class="block p-4 text-sm font-semibold hover:bg-main hover:text-white rounded"
+                class="block p-4 text-sm font-semibold text-white hover:bg-white hover:text-black hover:rounded"
                 href="#"
                 >Menu</a
               >
             </li>
             <li class="mb-1">
               <a
-                class="block p-4 text-sm font-semibold hover:bg-main hover:text-white rounded"
+                class="block p-4 text-sm font-semibold text-white hover:bg-white hover:text-black hover:rounded"
                 href="#"
                 >News</a
               >
             </li>
-            <li class="mb-1">
+            <li class="mb-8">
               <a
-                class="block p-4 text-sm font-semibold hover:bg-main hover:text-white rounded"
+                class="block p-4 text-sm font-semibold text-white hover:bg-white hover:text-black hover:rounded"
                 href="#"
                 >Information</a
               >
             </li>
+            <div class="flex justify-between">
+              <a
+                href="#"
+                class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm text-center w-40"
+                >電話で予約</a
+              >
+              <a
+                href="#"
+                class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm text-center w-40"
+                >LINEで予約</a
+              >
+            </div>
           </ul>
         </div>
       </nav>
@@ -158,7 +172,7 @@
       <img
         src="images/top.jpg"
         alt="顔に手を添えている女性"
-        class="px-8 absolute container mx-auto"
+        class="px-8 absolute container mx-auto animate-fadein"
       />
     </div>
     <div class="bg-base_c">
@@ -194,7 +208,7 @@
       <img
         src="images/salon.jpg"
         alt="サロンの中"
-        class="rounded-sm shadow-xl"
+        class="rounded-sm shadow-xl transform hover:-translate-y-1 hover:scale-110"
       />
     </div>
     <div class="relative z-20">
@@ -207,7 +221,7 @@
       <div class="container mx-auto p-8">
         <h2 class="text-xl font-bold text-center mb-8">Menu</h2>
         <div class="">
-          <div class="mb-14">
+          <div class="mb-14 animate-upin">
             <p class="text-center font-bold text-base mb-5">まつげパーマ</p>
             <img
               src="images/matsuge.jpg"
@@ -268,25 +282,33 @@
       </div>
       <div class="container mx-auto p-8">
         <div>
-          <div class="mb-2 border border-gray rounded-sm shadow px-4 py-2">
+          <div
+            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+          >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
               <p class="font-bold pl-3">HPをリニューアルしました。</p>
             </a>
           </div>
-          <div class="mb-2 border border-gray rounded-sm shadow px-4 py-2">
+          <div
+            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+          >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
               <p class="font-bold pl-3">HPをリニューアルしました。</p>
             </a>
           </div>
-          <div class="mb-2 border border-gray rounded-sm shadow px-4 py-2">
+          <div
+            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+          >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
               <p class="font-bold pl-3">HPをリニューアルしました。</p>
             </a>
           </div>
-          <div class="mb-1 border border-gray rounded-sm shadow px-4 py-2">
+          <div
+            class="mb-1 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+          >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
               <p class="font-bold pl-3">HPをリニューアルしました。</p>
@@ -394,5 +416,22 @@
         }
       }
     });
+
+    let targets = document.getElementById('');//アニメーションさせたい要素
+let offset = 100;//アニメーションタイミング
+
+window.addEventListener('scroll', function() {//スクロールしたとき
+
+  var scroll = window.scrollY;//スクロール量を取得
+  var h = window.innerHeight;//画面の高さを取得
+
+  for(let target of targets) {
+    var pos = target.getBoundingClientRect().top + scroll;//アニメーションさせたい要素の位置を取得
+    if (scroll > pos - h + offset) {//スクロール量 > アニメーションさせたい要素の位置
+      target.classList.add('is-animated');
+    }
+  }
+
+});
   </script>
 </html>
