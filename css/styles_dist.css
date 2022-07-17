@@ -796,6 +796,31 @@ video {
           animation: fadein 1.5s ease-in-out;
 }
 
+@-webkit-keyframes upin {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes upin {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-upin {
+  -webkit-animation: upin 2s ease;
+          animation: upin 2s ease;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
