@@ -16,6 +16,7 @@ module.exports = {
       accent: "#C6CDBC",
       black: "#444444",
       white: "#FFFFFF",
+      white_h: "#f0f0f0",
       gray: "#C6C3C3",
     },
     fontFamily: {
@@ -23,13 +24,13 @@ module.exports = {
     },
     extend: {
       keyframes: {
-        "fade-in": {
+        fadein: {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
       },
       animation: {
-        "fade-in": "fade-in 1.5s ease-in-out",
+        fadein: "fadein 1.5s ease-in-out",
       },
     },
     plugins: [
