@@ -233,7 +233,7 @@
             </p>
             <p class="text-right text-xs">6,600円(税込み)</p>
           </div>
-          <div class="mb-14">
+          <div class="mb-14 animate-upin">
             <p class="text-center font-bold text-base mb-5">ラッシュリフト</p>
             <img
               src="images/rash.jpg"
@@ -245,7 +245,7 @@
             </p>
             <p class="text-right text-xs">6,600円(税込み)</p>
           </div>
-          <div class="mb-14">
+          <div class="mb-14 animate-upin">
             <p class="text-center font-bold text-base mb-5">
               パリジェンヌラッシュリフト
             </p>
@@ -259,7 +259,7 @@
             </p>
             <p class="text-right text-xs">6,600円(税込み)</p>
           </div>
-          <div>
+          <div class="animate-upin">
             <p class="text-center font-bold text-base mb-5">
               アップワードリフト
             </p>
@@ -417,21 +417,22 @@
       }
     });
 
-    let targets = document.getElementById('');//アニメーションさせたい要素
-let offset = 100;//アニメーションタイミング
+    let targets = document.getElementById(""); //アニメーションさせたい要素
+    let offset = 100; //アニメーションタイミング
 
-window.addEventListener('scroll', function() {//スクロールしたとき
+    window.addEventListener("scroll", function () {
+      //スクロールしたとき
 
-  var scroll = window.scrollY;//スクロール量を取得
-  var h = window.innerHeight;//画面の高さを取得
+      var scroll = window.scrollY; //スクロール量を取得
+      var h = window.innerHeight; //画面の高さを取得
 
-  for(let target of targets) {
-    var pos = target.getBoundingClientRect().top + scroll;//アニメーションさせたい要素の位置を取得
-    if (scroll > pos - h + offset) {//スクロール量 > アニメーションさせたい要素の位置
-      target.classList.add('is-animated');
-    }
-  }
-
-});
+      for (let target of targets) {
+        var pos = target.getBoundingClientRect().top + scroll; //アニメーションさせたい要素の位置を取得
+        if (scroll > pos - h + offset) {
+          //スクロール量 > アニメーションさせたい要素の位置
+          target.classList.add("is-animated");
+        }
+      }
+    });
   </script>
 </html>
