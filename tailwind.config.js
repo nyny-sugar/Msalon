@@ -35,7 +35,7 @@ module.exports = {
       },
       animation: {
         fadein: "fadein 1.5s ease-in-out",
-        upin: "upin 2s ease",
+        upin: "upin 6s ease",
       },
     },
     plugins: [

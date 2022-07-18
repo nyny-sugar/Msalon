@@ -821,8 +821,8 @@ video {
 }
 
 .animate-upin {
-  -webkit-animation: upin 2s ease;
-          animation: upin 2s ease;
+  -webkit-animation: upin 6s ease;
+          animation: upin 6s ease;
 }
 
 .cursor-pointer {
