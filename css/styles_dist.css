@@ -1126,6 +1126,10 @@ video {
     height: 83.333333%;
   }
 
+  .md\:w-96 {
+    width: 24rem;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
