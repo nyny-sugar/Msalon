@@ -1130,6 +1130,10 @@ video {
     width: 24rem;
   }
 
+  .md\:w-4\/5 {
+    width: 80%;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
