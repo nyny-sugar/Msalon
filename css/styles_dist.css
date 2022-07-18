@@ -1053,6 +1053,10 @@ video {
 }
 
 @media (min-width: 375px) {
+  .sm\:h-44 {
+    height: 11rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1060,9 +1064,22 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:h-96 {
+    height: 24rem;
+  }
+
+  .md\:h-5\/6 {
+    height: 83.333333%;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
