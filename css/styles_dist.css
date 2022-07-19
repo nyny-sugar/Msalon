@@ -1287,6 +1287,14 @@ video {
     width: 24rem;
   }
 
+  .xl\:w-2\/5 {
+    width: 40%;
+  }
+
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+
   .xl\:gap-20 {
     gap: 5rem;
   }
