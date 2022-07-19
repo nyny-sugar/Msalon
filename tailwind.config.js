@@ -23,7 +23,7 @@ module.exports = {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
     },
     aspectRatio: {
-      "1920/1281": "1920/1281",
+      "16/9": "1920/1080",
     },
     extend: {
       keyframes: {
