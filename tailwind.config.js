@@ -22,6 +22,9 @@ module.exports = {
     fontFamily: {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
     },
+    aspectRatio: {
+      "1920/1281": "1920/1281",
+    },
     extend: {
       keyframes: {
         fadein: {
