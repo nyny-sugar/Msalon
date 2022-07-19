@@ -1239,6 +1239,11 @@ video {
     width: 5rem;
   }
 
+  .xl\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .xl\:pt-96 {
     padding-top: 24rem;
   }
