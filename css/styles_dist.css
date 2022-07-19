@@ -1243,6 +1243,10 @@ video {
     width: 5rem;
   }
 
+  .xl\:w-96 {
+    width: 24rem;
+  }
+
   .xl\:gap-20 {
     gap: 5rem;
   }
@@ -1267,5 +1271,9 @@ video {
 
   .xl\:pb-16 {
     padding-bottom: 4rem;
+  }
+
+  .xl\:pb-20 {
+    padding-bottom: 5rem;
   }
 }
