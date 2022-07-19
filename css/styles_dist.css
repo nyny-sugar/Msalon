@@ -1115,6 +1115,18 @@ video {
     height: 24rem;
   }
 
+  .md\:h-52 {
+    height: 13rem;
+  }
+
+  .md\:h-72 {
+    height: 18rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:w-96 {
     width: 24rem;
   }
@@ -1177,6 +1189,10 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-96 {
+    height: 24rem;
   }
 
   .lg\:w-auto {
