@@ -1223,6 +1223,10 @@ video {
     margin-top: 6rem;
   }
 
+  .xl\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
   .xl\:w-4\/5 {
     width: 80%;
   }
