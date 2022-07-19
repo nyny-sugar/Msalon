@@ -1243,6 +1243,19 @@ video {
     width: 5rem;
   }
 
+  .xl\:gap-20 {
+    gap: 5rem;
+  }
+
+  .xl\:gap-x-20 {
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+  }
+
+  .xl\:gap-y-14 {
+    row-gap: 3.5rem;
+  }
+
   .xl\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
