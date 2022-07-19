@@ -22,45 +22,48 @@ module.exports = {
     fontFamily: {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
     },
-    extend: {
-      keyframes: {
-        fadein: {
-          "0%": { opacity: 0 },
-          "100%": { opacity: 1 },
-        },
-        upin: {
-          "0%": { opacity: 0, transform: "translateY(100%)" },
-          "100%": { opacity: 1, transform: "translateY(0)" },
-        },
+    aspectRatio: {
+      "16/9": "1920/1080",
+    },
+  },
+  extend: {
+    keyframes: {
+      fadein: {
+        "0%": { opacity: 0 },
+        "100%": { opacity: 1 },
       },
-      animation: {
-        fadein: "fadein 1.5s ease-in-out",
-        upin: "upin 6s ease",
+      upin: {
+        "0%": { opacity: 0, transform: "translateY(100%)" },
+        "100%": { opacity: 1, transform: "translateY(0)" },
       },
     },
-    plugins: [
-      function ({ addComponents }) {
-        addComponents({
-          ".container": {
-            maxWidth: "90%",
-            "@screen sm": {
-              maxWidth: "360px",
-            },
-            "@screen md": {
-              maxWidth: "700px",
-            },
-            "@screen lg": {
-              maxWidth: "900px",
-            },
-            "@screen xl": {
-              maxWidth: "1200px",
-            },
-            "@screen 2xl": {
-              maxWidth: "1200px",
-            },
-          },
-        });
-      },
-    ],
+    animation: {
+      fadein: "fadein 1.5s ease-in-out",
+      upin: "upin 6s ease",
+    },
   },
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        ".container": {
+          maxWidth: "90%",
+          "@screen sm": {
+            maxWidth: "360px",
+          },
+          "@screen md": {
+            maxWidth: "700px",
+          },
+          "@screen lg": {
+            maxWidth: "900px",
+          },
+          "@screen xl": {
+            maxWidth: "1200px",
+          },
+          "@screen 2xl": {
+            maxWidth: "1200px",
+          },
+        },
+      });
+    },
+  ],
 };
