@@ -1208,4 +1208,8 @@ video {
   .lg\:pt-64 {
     padding-top: 16rem;
   }
+
+  .lg\:pt-56 {
+    padding-top: 14rem;
+  }
 }
