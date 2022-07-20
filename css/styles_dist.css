@@ -1282,4 +1282,12 @@ video {
   .xl\:pt-96 {
     padding-top: 24rem;
   }
+
+  .xl\:pt-60 {
+    padding-top: 15rem;
+  }
+
+  .xl\:pt-64 {
+    padding-top: 16rem;
+  }
 }
