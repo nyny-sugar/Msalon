@@ -24,6 +24,7 @@ module.exports = {
     },
     aspectRatio: {
       "16/9": "1920/1080",
+      "4/3": "4/3",
     },
   },
   extend: {

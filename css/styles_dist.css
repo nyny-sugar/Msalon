@@ -751,6 +751,10 @@ video {
   aspect-ratio: 1920/1080;
 }
 
+.aspect-4\/3 {
+  aspect-ratio: 4/3;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -1074,6 +1078,10 @@ video {
     width: 2.25rem;
   }
 
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:justify-between {
     justify-content: space-between;
   }
@@ -1241,36 +1249,20 @@ video {
 }
 
 @media (min-width: 1440px) {
-  .xl\:top-44 {
-    top: 11rem;
-  }
-
-  .xl\:left-2\/3 {
-    left: 66.666667%;
-  }
-
   .xl\:left-1\/4 {
     left: 25%;
   }
 
-  .xl\:left-3\/4 {
-    left: 75%;
+  .xl\:top-1\/4 {
+    top: 25%;
   }
 
   .xl\:left-1\/2 {
     left: 50%;
   }
 
-  .xl\:top-1\/2 {
-    top: 50%;
-  }
-
   .xl\:top-2\/3 {
     top: 66.666667%;
-  }
-
-  .xl\:top-1\/4 {
-    top: 25%;
   }
 
   .xl\:mt-28 {
@@ -1285,6 +1277,10 @@ video {
     margin-bottom: 4rem;
   }
 
+  .xl\:h-full {
+    height: 100%;
+  }
+
   .xl\:w-3\/5 {
     width: 60%;
   }
@@ -1295,6 +1291,10 @@ video {
 
   .xl\:w-1\/2 {
     width: 50%;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
   }
 
   .xl\:gap-x-20 {
