@@ -1277,6 +1277,18 @@ video {
     margin-bottom: 4rem;
   }
 
+  .xl\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .xl\:mt-11 {
+    margin-top: 2.75rem;
+  }
+
+  .xl\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
   .xl\:h-full {
     height: 100%;
   }
