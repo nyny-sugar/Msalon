@@ -802,35 +802,6 @@ video {
           animation: fadein 1.5s ease-in-out;
 }
 
-@-webkit-keyframes upin {
-  0% {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes upin {
-  0% {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-upin {
-  -webkit-animation: upin 6s ease;
-          animation: upin 6s ease;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -884,7 +855,7 @@ video {
 
 .bg-accent {
   --tw-bg-opacity: 1;
-  background-color: rgb(198 205 188 / var(--tw-bg-opacity));
+  background-color: rgb(160 171 143 / var(--tw-bg-opacity));
 }
 
 .bg-base_c {
@@ -1141,10 +1112,6 @@ video {
     width: 80%;
   }
 
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
   .md\:justify-center {
     justify-content: center;
   }
@@ -1152,10 +1119,6 @@ video {
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
-  }
-
-  .md\:pt-28 {
-    padding-top: 7rem;
   }
 
   .md\:pt-32 {
@@ -1298,10 +1261,6 @@ video {
     height: 100%;
   }
 
-  .xl\:w-3\/5 {
-    width: 60%;
-  }
-
   .xl\:w-96 {
     width: 24rem;
   }
@@ -1322,14 +1281,6 @@ video {
   .xl\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .xl\:pt-64 {
-    padding-top: 16rem;
-  }
-
-  .xl\:pt-80 {
-    padding-top: 20rem;
   }
 
   .xl\:pt-96 {

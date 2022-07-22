@@ -13,7 +13,7 @@ module.exports = {
       base_c: "#E5D5C6",
       main: "#C97D68",
       main_h: "#ab624f",
-      accent: "#C6CDBC",
+      accent: "#a0ab8f",
       black: "#444444",
       white: "#FFFFFF",
       white_h: "#f0f0f0",
