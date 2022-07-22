@@ -23,7 +23,7 @@
         <div class="lg:hidden">
           <button class="navbar-burger flex items-center p-3">
             <svg
-              class="h-4 w-4 fill-current text-white"
+              class="h-4 w-4 fill-white"
               viewbox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -73,7 +73,7 @@
           <div class="mb-8 text-right">
             <button class="navbar-close">
               <svg
-                class="h-6 w-6 cursor-pointer fill-current text-white"
+                class="h-6 w-6 cursor-pointer"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewbox="0 0 24 24"
@@ -368,9 +368,7 @@
   </body>
 
   <script>
-    // Burger menus
     document.addEventListener("DOMContentLoaded", function () {
-      // open
       const burger = document.querySelectorAll(".navbar-burger");
       const menu = document.querySelectorAll(".navbar-menu");
 
@@ -384,7 +382,6 @@
         }
       }
 
-      // close
       const close = document.querySelectorAll(".navbar-close");
       const backdrop = document.querySelectorAll(".navbar-backdrop");
 
@@ -409,19 +406,16 @@
       }
     });
 
-    let targets = document.getElementById(""); //アニメーションさせたい要素
-    let offset = 100; //アニメーションタイミング
+    let targets = document.getElementById("");
+    let offset = 100;
 
     window.addEventListener("scroll", function () {
-      //スクロールしたとき
-
-      var scroll = window.scrollY; //スクロール量を取得
-      var h = window.innerHeight; //画面の高さを取得
+      var scroll = window.scrollY;
+      var h = window.innerHeight;
 
       for (let target of targets) {
-        var pos = target.getBoundingClientRect().top + scroll; //アニメーションさせたい要素の位置を取得
+        var pos = target.getBoundingClientRect().top + scroll;
         if (scroll > pos - h + offset) {
-          //スクロール量 > アニメーションさせたい要素の位置
           target.classList.add("is-animated");
         }
       }
