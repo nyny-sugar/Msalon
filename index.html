@@ -8,6 +8,7 @@
     <title>まつげサロン</title>
     <link rel="stylesheet" href="CSS/styles_dist.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body class="text-black font-body sm:text-sm md:text-base">
     <div class="bg-main sticky top-0 z-50">
@@ -203,7 +204,7 @@
         <div
           class="w-3/4 mx-auto lg:grid lg:grid-cols-2 lg:gap-x-14 xl:gap-x-20 xl:gap-y-14 lg:w-5/6"
         >
-          <div class="mb-14">
+          <div class="mb-14 upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               まつげパーマ
             </p>
@@ -217,7 +218,7 @@
             </p>
             <p class="text-right sm:text-xs md:text-sm">6,600円(税込み)</p>
           </div>
-          <div class="mb-14">
+          <div class="mb-14 upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               ラッシュリフト
             </p>
@@ -231,7 +232,7 @@
             </p>
             <p class="text-right sm:text-xs md:text-sm">6,600円(税込み)</p>
           </div>
-          <div class="mb-14">
+          <div class="mb-14 upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               パリジェンヌラッシュリフト
             </p>
@@ -245,7 +246,7 @@
             </p>
             <p class="text-right sm:text-xs md:text-sm">6,600円(税込み)</p>
           </div>
-          <div class="">
+          <div class="upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               アップワードリフト
             </p>
@@ -422,6 +423,14 @@
           target.classList.add("is-animated");
         }
       }
+    });
+
+    ScrollReveal().reveal(".upIn", {
+      duration: 2500,
+      origin: "bottom",
+      distance: "200px",
+      viewFactor: 0.5,
+      reset: true,
     });
   </script>
 </html>
