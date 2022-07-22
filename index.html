@@ -8,6 +8,7 @@
     <title>まつげサロン</title>
     <link rel="stylesheet" href="CSS/styles_dist.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body class="text-black font-body sm:text-sm md:text-base">
     <div class="bg-main sticky top-0 z-50">
@@ -35,28 +36,28 @@
           class="hidden lg:flex lg:justify-between lg:items-center lg:w-auto lg:space-x-6"
         >
           <li>
-            <a class="text-white hover:bg-main_h" href="#">Concept</a>
+            <a class="text-white hover:text-white_h" href="#">Concept</a>
           </li>
           <li>
-            <a class="text-white hover:bg-main_h" href="#">Menu</a>
+            <a class="text-white hover:text-white_h" href="#">Menu</a>
           </li>
           <li>
-            <a class="text-white hover:bg-main_h" href="#">News</a>
+            <a class="text-white hover:text-white_h" href="#">News</a>
           </li>
           <li>
-            <a class="text-white hover:bg-main_h" href="#">Information</a>
+            <a class="text-white hover:text-white_h" href="#">Information</a>
           </li>
           <li>
             <a
               href="#"
-              class="block bg-accent text-white rounded-sm shadow-sm w-28 py-1 px-4 text-center"
+              class="block bg-accent text-white rounded-sm shadow-sm w-28 py-1 px-4 text-center hover:bg-accent_h"
               >電話で予約</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="block bg-accent text-white rounded-sm shadow-sm w-32 py-1 px-4 text-center"
+              class="block bg-accent text-white rounded-sm shadow-sm w-32 py-1 px-4 text-center hover:bg-accent_h"
               >LINEで予約</a
             >
           </li>
@@ -120,12 +121,12 @@
               <div class="flex justify-between">
                 <a
                   href="#"
-                  class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm text-center w-40"
+                  class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm text-center w-40 hover:bg-accent_h"
                   >電話で予約</a
                 >
                 <a
                   href="#"
-                  class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm text-center w-40"
+                  class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm text-center w-40 hover:bg-accent_h"
                   >LINEで予約</a
                 >
               </div>
@@ -134,21 +135,21 @@
         </nav>
       </div>
     </div>
-    <div class="bg-main">
-      <div class="relative container mx-auto sm:h-44 md:h-80 lg:h-96">
+    <div class="bg-main sm:h-44 md:h-80 lg:h-96">
+      <div class="relative container mx-auto">
         <img
           src="images/top.jpg"
           alt="顔に手を添えている女性"
-          class="aspect-16/9 px-8 absolute animated fadeIn"
+          class="aspect-16/9 px-8 absolute animate-fadein"
         />
       </div>
     </div>
     <div class="bg-base_c">
       <div
-        class="container mx-auto px-8 pb-8 sm: pt-12 md:pt-28 lg:pt-56 xl:pt-64"
+        class="container mx-auto px-8 pb-8 sm: pt-12 md:pt-32 lg:pt-56 xl:pt-96"
       >
         <div class="flex sm:justify-between md:justify-center">
-          <p class="w-3/4 mt-5 md:mr-6 xl:mt-28 xl:w-3/5">
+          <p class="w-3/4 mt-5 md:mr-6 xl:mt-28">
             女性の「キレイ」をサポートする女性の「キレイ」をサポートする女性の「キレイ」をサポートする女性の「キレイ」をサポートする女性の「キレイ」をサポートする女性の「キレイ」をサポートする
           </p>
           <svg
@@ -203,21 +204,21 @@
         <div
           class="w-3/4 mx-auto lg:grid lg:grid-cols-2 lg:gap-x-14 xl:gap-x-20 xl:gap-y-14 lg:w-5/6"
         >
-          <div class="mb-14">
+          <div class="mb-14 upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               まつげパーマ
             </p>
             <img
               src="images/matsuge.jpg"
               alt="まつげパーマしている女性"
-              class="rounded-sm mb-4 mx-auto"
+              class="rounded-sm mb-4 mx-auto animate-fadein"
             />
             <p class="mb-1 mt-4 w-4/5 mx-auto">
               女性の「キレイ」をサポートする女性の「キレイ」をサポートする女性の「キレイ」をサポートする女性の「キレイ」をサポートする
             </p>
             <p class="text-right sm:text-xs md:text-sm">6,600円(税込み)</p>
           </div>
-          <div class="mb-14">
+          <div class="mb-14 upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               ラッシュリフト
             </p>
@@ -231,7 +232,7 @@
             </p>
             <p class="text-right sm:text-xs md:text-sm">6,600円(税込み)</p>
           </div>
-          <div class="mb-14">
+          <div class="mb-14 upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               パリジェンヌラッシュリフト
             </p>
@@ -245,7 +246,7 @@
             </p>
             <p class="text-right sm:text-xs md:text-sm">6,600円(税込み)</p>
           </div>
-          <div class="">
+          <div class="upIn">
             <p class="text-center font-bold mb-5 sm: text-base md:text-2xl">
               アップワードリフト
             </p>
@@ -270,7 +271,7 @@
         <div class="border-b-4 border-main w-10 mx-auto sm:mb-8 md:mb-12"></div>
         <div>
           <div
-            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 hover:border-gray_h"
           >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
@@ -278,7 +279,7 @@
             </a>
           </div>
           <div
-            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 hover:border-gray_h"
           >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
@@ -286,7 +287,7 @@
             </a>
           </div>
           <div
-            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+            class="mb-2 border border-gray rounded-sm shadow px-4 py-2 hover:border-gray_h"
           >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
@@ -294,7 +295,7 @@
             </a>
           </div>
           <div
-            class="mb-1 border border-gray rounded-sm shadow px-4 py-2 transform hover:-translate-y-1 hover:scale-110"
+            class="mb-1 border border-gray rounded-sm shadow px-4 py-2 hover:border-gray_h"
           >
             <p class="mb-1">2022年6月1日</p>
             <a href="#">
@@ -336,12 +337,12 @@
             <div class="flex justify-between xl:mt-9">
               <a
                 href="#"
-                class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm md:mr-4"
+                class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm md:mr-4 hover:bg-accent_h"
                 >電話で予約</a
               >
               <a
                 href="#"
-                class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm"
+                class="block bg-accent text-white font-bold py-2 px-9 rounded-sm shadow-sm hover:bg-accent_h"
                 >LINEで予約</a
               >
             </div>
@@ -424,6 +425,14 @@
           target.classList.add("is-animated");
         }
       }
+    });
+
+    ScrollReveal().reveal(".upIn", {
+      duration: 1000,
+      origin: "bottom",
+      distance: "200px",
+      viewFactor: 0.5,
+      reset: true,
     });
   </script>
 </html>

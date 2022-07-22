@@ -592,40 +592,6 @@ video {
   }
 }
 
-.container {
-  max-width: 90%;
-}
-
-@media (min-width: 375px) {
-  .container {
-    max-width: 360px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 700px;
-  }
-}
-
-@media (min-width: 976px) {
-  .container {
-    max-width: 900px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-
 .fixed {
   position: fixed;
 }
@@ -811,9 +777,29 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.animate-none {
-  -webkit-animation: none;
-          animation: none;
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadein {
+  -webkit-animation: fadein 1.5s ease-in-out;
+          animation: fadein 1.5s ease-in-out;
 }
 
 .cursor-pointer {
@@ -869,7 +855,7 @@ video {
 
 .bg-accent {
   --tw-bg-opacity: 1;
-  background-color: rgb(198 205 188 / var(--tw-bg-opacity));
+  background-color: rgb(160 171 143 / var(--tw-bg-opacity));
 }
 
 .bg-base_c {
@@ -1032,6 +1018,16 @@ video {
   border-radius: 0.25rem;
 }
 
+.hover\:border-gray_h:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(113 111 111 / var(--tw-border-opacity));
+}
+
+.hover\:border-accent_h:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(198 205 188 / var(--tw-border-opacity));
+}
+
 .hover\:bg-main_h:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(171 98 79 / var(--tw-bg-opacity));
@@ -1040,6 +1036,11 @@ video {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-accent_h:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(198 205 188 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white_h:hover {
@@ -1135,8 +1136,8 @@ video {
     padding-bottom: 4rem;
   }
 
-  .md\:pt-28 {
-    padding-top: 7rem;
+  .md\:pt-32 {
+    padding-top: 8rem;
   }
 
   .md\:text-base {
@@ -1275,10 +1276,6 @@ video {
     height: 100%;
   }
 
-  .xl\:w-3\/5 {
-    width: 60%;
-  }
-
   .xl\:w-96 {
     width: 24rem;
   }
@@ -1301,7 +1298,7 @@ video {
     padding-bottom: 5rem;
   }
 
-  .xl\:pt-64 {
-    padding-top: 16rem;
+  .xl\:pt-96 {
+    padding-top: 24rem;
   }
 }
