@@ -14,6 +14,7 @@ module.exports = {
       main: "#C97D68",
       main_h: "#ab624f",
       accent: "#a0ab8f",
+      accent_h: "#c6cdbc",
       black: "#444444",
       white: "#FFFFFF",
       white_h: "#f0f0f0",
