@@ -1141,6 +1141,10 @@ video {
     width: 80%;
   }
 
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
@@ -1152,6 +1156,10 @@ video {
 
   .md\:pt-28 {
     padding-top: 7rem;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
   }
 
   .md\:text-base {
@@ -1318,5 +1326,13 @@ video {
 
   .xl\:pt-64 {
     padding-top: 16rem;
+  }
+
+  .xl\:pt-80 {
+    padding-top: 20rem;
+  }
+
+  .xl\:pt-96 {
+    padding-top: 24rem;
   }
 }
