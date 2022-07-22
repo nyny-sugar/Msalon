@@ -1023,6 +1023,11 @@ video {
   border-color: rgb(113 111 111 / var(--tw-border-opacity));
 }
 
+.hover\:border-accent_h:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(198 205 188 / var(--tw-border-opacity));
+}
+
 .hover\:bg-main_h:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(171 98 79 / var(--tw-bg-opacity));
