@@ -969,7 +969,7 @@ video {
 }
 
 .font-body {
-  font-family: YuGothic, Yu Gothic, sans-serif;
+  font-family: YuMincho, Yu Gothic, sans-serif;
 }
 
 .text-2xl {
@@ -1326,7 +1326,7 @@ video {
     padding-bottom: 5rem;
   }
 
-  .xl\:pt-96 {
-    padding-top: 24rem;
+  .xl\:pt-80 {
+    padding-top: 20rem;
   }
 }
