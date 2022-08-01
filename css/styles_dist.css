@@ -968,6 +968,10 @@ video {
   text-align: right;
 }
 
+.font-body {
+  font-family: Shippori Mincho, Noto Serif JP, serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;

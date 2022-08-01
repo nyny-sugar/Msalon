@@ -22,8 +22,7 @@ module.exports = {
       gray_h: "#716F6F",
     },
     fontFamily: {
-      body_j: ["Shippori Mincho", "Noto Serif JP", "serif"],
-      body_e: ["Source Serif Pro", "serif"],
+      body: ["Shippori Mincho", "Noto Serif JP", "serif"],
     },
     aspectRatio: {
       "16/9": "1920/1080",
