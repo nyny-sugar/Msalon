@@ -418,21 +418,6 @@
       }
     });
 
-    let targets = document.getElementById("");
-    let offset = 100;
-
-    window.addEventListener("scroll", function () {
-      var scroll = window.scrollY;
-      var h = window.innerHeight;
-
-      for (let target of targets) {
-        var pos = target.getBoundingClientRect().top + scroll;
-        if (scroll > pos - h + offset) {
-          target.classList.add("is-animated");
-        }
-      }
-    });
-
     ScrollReveal().reveal(".upIn", {
       duration: 1600,
       origin: "bottom",
