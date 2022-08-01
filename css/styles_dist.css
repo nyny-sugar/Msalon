@@ -674,10 +674,6 @@ video {
   top: 50%;
 }
 
-.isolate {
-  isolation: isolate;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -970,10 +966,6 @@ video {
 
 .text-right {
   text-align: right;
-}
-
-.font-body {
-  font-family: YuMincho, Yu Gothic, sans-serif;
 }
 
 .text-2xl {
@@ -1308,20 +1300,16 @@ video {
     height: 100%;
   }
 
+  .xl\:w-20 {
+    width: 5rem;
+  }
+
   .xl\:w-96 {
     width: 24rem;
   }
 
   .xl\:w-1\/2 {
     width: 50%;
-  }
-
-  .xl\:w-24 {
-    width: 6rem;
-  }
-
-  .xl\:w-20 {
-    width: 5rem;
   }
 
   .xl\:gap-x-20 {
